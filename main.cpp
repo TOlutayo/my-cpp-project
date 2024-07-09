@@ -1,7 +1,12 @@
 // main.cpp
 #include <iostream>
 
-int main(){
+void greet() {
     std::cout << "Hello, Git and C++!" << std::endl;
+}
+
+int main(){
+    greet();
+    std::cout << "Hello, Git and C++" <<std::endl;
     return 0;
 }
